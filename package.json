@@ -1,0 +1,17 @@
+{
+  "name": "firecrawl-change-auditor",
+  "version": "1.0.0",
+  "description": "Detect risky content changes on web pages with Firecrawl.",
+  "type": "module",
+  "bin": { "firecrawl-audit": "./src/cli.js" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.0.0",
+    "commander": "^14.0.0"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
